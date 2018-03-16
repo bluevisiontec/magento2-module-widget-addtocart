@@ -1,0 +1,8 @@
+"Add to cart button","In den Warenorb - Button"
+"Order now!","Jetzt bestellen!"
+"Button label","Button Beschriftung"
+"Button title","Button Titel"
+"You need to specify the id of the product you want to add to cart.","Hier muss die Id des Produkts eingetragen werden, welches in den Warenkorb gelegt werden soll."
+"The label of the &quot;add to cart&quot; button","Die Beschriftung des Buttons."
+"The title-attribute of the &quot;add to cart&quot; button","Dieser Wert befüllt das title-Attribut des Buttons"
+"This specifies the CSS classes of the button.","Hier können die CSS-Klassen für den Button angegeben werden."

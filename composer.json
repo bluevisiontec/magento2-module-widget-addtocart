@@ -1,0 +1,11 @@
+{
+    "name": "bluevisiontec/widget-addtocart",
+    "description":"Adds a widget to create an add to cart button",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": "MIT",
+    "require": {
+    },
+    "require-dev": {           
+    }    
+}

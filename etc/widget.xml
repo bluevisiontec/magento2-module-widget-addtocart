@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<widgets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Widget:etc/widget.xsd">
+    <widget class="BlueVisionTec\WidgetAddToCart\Block\Widget\AddToCart" id="bvtec_addtocart_widget_addtocart">
+        <label>Add to cart button</label>
+        <description>Insert an "Add to cart button"</description>
+        <parameters>
+            
+            <parameter name="productid" sort_order="10" visible="true" required="true" xsi:type="text">
+                        <label>Product Id</label>
+                        <description>You need to specify the id of the product you want to add to cart.</description>
+            </parameter>
+            <parameter name="buttonlabel" sort_order="20" visible="true" required="true" xsi:type="text">
+                        <label>Button Label</label>
+                        <value>Order now!</value>
+                        <description>The label of the &quot;add to cart&quot; button</description>
+            </parameter>
+            <parameter name="buttontitle" sort_order="30" visible="true" required="true" xsi:type="text">
+                        <label>Button Title</label>
+                        <value>Order now!</value>
+                        <description>The title-attribute of the &quot;add to cart&quot; button</description>
+            </parameter>
+            <parameter name="buttoncssclasses" sort_order="40" visible="true" required="false" xsi:type="text">
+                        <label>Button CSS classes</label>
+                        <value>btn btn-success</value>
+                        <description>This specifies the CSS classes of the button.</description>
+            </parameter>
+        </parameters>
+    </widget>
+</widgets>

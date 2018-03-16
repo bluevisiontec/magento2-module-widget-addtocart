@@ -1,0 +1,8 @@
+<form data-role="tocart-form" action="<?php echo $block->getAddToCartUrl();?>" method="post">
+    <?php echo $block->getBlockHtml('formkey')?>
+    <button type="submit"
+    title="<?php echo $block->getData('buttontitle');?>"
+    class="<?php echo $block->getData('buttoncssclasses');?>">
+    <h2><?php echo $block->getData('buttonlabel');?></h2>
+    </button>
+</form>
